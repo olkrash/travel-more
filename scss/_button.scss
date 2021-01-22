@@ -1,0 +1,10 @@
+ .button{
+  @include center;
+  height: 61px;
+  width: 226px;
+  background: linear-gradient(45deg, rgba(84, 116, 253, 1) 36%, rgba(84, 125, 253, 1) 37%);
+  .button__text{
+   text-transform: uppercase;
+   color: $primary-colour;
+  }
+ }

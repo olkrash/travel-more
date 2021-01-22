@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  .why-us .why-us-first {
+    margin: 50px auto 10px;
+  }
+  .why-us .why-us-second {
+    margin: 0 auto;
+  }
+  .header__searchfield .header__site-search {
+    width: 100%;
+  }
+  .header__searchfield {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border: none;
+  }
+  .header__search {
+    margin-top: 10px;
+  }
+}

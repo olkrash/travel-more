@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap');
+
+.header__title{
+  font-size: 48px;
+  letter-spacing: 5px;
+  line-height: 26px;
+  color: $primary-colour;
+  font-weight: 700;
+  font-family: $main-font-family;
+
+}
+.secondary-title{
+  font-size: 36px;
+  line-height: 26px;
+  color: $primary-colour;
+  font-weight: 400;
+  font-family: $secondary-font-family;
+}
+.third-title{
+  font-family: $main-font-family;
+  font-size: 20px;
+  line-height: 26px;
+  color: $primary-colour;
+}
+.main-descr{
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  color: #e8e8e8;
+  font-family: $main-font-family;
+}
+.search,
+.select,
+.book{
+  font-size: 36px;
+  line-height: 26px;
+  color: #e8e8e8;
+  font-weight: 400;
+  font-family: $secondary-font-family;
+  text-align: center;
+}
+.small-logo{
+  line-height: 1.08;
+  letter-spacing: 2.4px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: $main-font-family;
+  color: $primary-colour;
+}

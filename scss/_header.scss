@@ -1,0 +1,72 @@
+.header {
+  @include center;
+  background: url("../img/header-bg.png") center no-repeat #cccccc;
+  background-size: cover;
+
+  &__title {
+    margin: 256px 0 15px 0;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-family: $main-font-family;
+    color: $primary-colour;
+    line-height: 1.18;
+    font-size: 22px;
+    letter-spacing: 6.82px;
+    margin-bottom: 50px;
+  }
+
+  &__searchfield {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px #ffffff;
+
+    .header__site-search {
+      width: 550px;
+      height: 60px;
+      line-height: 1.86;
+      letter-spacing: 2.8px;
+      text-align: center;
+      color: #999999;
+      font-size: 14px;
+      outline: none;
+      border: none;
+    }
+
+    .header__search {
+      width: 150px;
+      height: 60px;
+      background-color: $button-color;
+      color: $primary-colour;
+      font-size: 14px;
+      outline: none;
+      text-transform: uppercase;
+      border: none;
+    }
+
+    .header__search-sign {
+      margin-left: 11px;
+    }
+  }
+
+  &__scrollwrap {
+    @include center;
+    color: $primary-colour;
+    text-decoration: none;
+    margin-bottom: 150px;
+
+    &:visited {
+      color: $primary-colour;
+    }
+
+    .header__scroll {
+      font-family: $main-font-family;
+      line-height: 1.86;
+      letter-spacing: 2.8px;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  }
+}

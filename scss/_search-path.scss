@@ -1,0 +1,9 @@
+.search-path{
+  background-color: #333333;
+  &__text {
+    font-family: $secondary-font-family;
+    font-size: 36px;
+    color: $secondary-color;
+    margin-top: 30px;
+  }
+}

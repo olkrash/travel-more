@@ -1,0 +1,23 @@
+.header-sub{
+  background-color: $button-color;
+  &__logo{
+    padding: 28px 0 32px 0;
+  }
+  &__hrefwrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    .header-sub__href{
+      font-family: $secondary-font-family;
+      color: $primary-colour;
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 1.86;
+    }
+    .header-sub__href:last-child{
+      margin-right: 0;
+    }
+  }
+}

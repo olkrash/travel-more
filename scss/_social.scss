@@ -1,0 +1,36 @@
+.socials{
+  @include center;
+  background-color: #232323;
+  .socials__logo{
+    margin: 120px 0 15px 0;
+  }
+  .socials__sublogo{
+    color: $primary-colour;
+    font-family: $main-font-family;
+    line-height: 1.63;
+    letter-spacing: 1.6px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    }
+  .social__container{
+    a{
+      color: $primary-colour;
+      text-decoration: none;
+    }
+    a:hover{
+      color: $button-color;
+    }
+    a:visited {
+      background-color: $primary-colour;
+    }
+    .fab{
+         font-size: 16px;
+         margin: 31px 24px 54px 0;
+
+       }
+    .fab:last-child{
+      margin-right: 0;
+    }
+  }
+}
