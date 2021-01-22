@@ -18,3 +18,10 @@
     margin-top: 10px;
   }
 }
+
+// hide arc
+@media screen and (max-width: 991px) {
+  .search-path__arc {
+    display: none;
+  }
+}
